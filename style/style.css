@@ -1,0 +1,84 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+
+	font-family : "Times New Roman", Georgia, Serif;
+	font-size: 14pt;
+}
+
+
+#topform {
+
+	margin-top : 20px;
+
+	display : flex;
+
+	height: 180px;
+}
+
+.label-input {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+
+
+	margin-top : 10px;
+	padding : 15px 10px 10px 10px;
+
+}
+
+.label-input label {
+
+	display : inline-block
+
+	flex: 1;
+	padding : 5px;
+	width: 70px;
+
+	border : 1px solid yellow;
+
+}
+
+.label-input #startDate,  .label-input #endDate {
+
+
+	flex : 1;
+	width: 20px;
+}
+
+.container {
+
+	margin-top: 90px;
+	height: 250px;
+
+	border : 1px solid green;
+}
+
+
+
+
+#dateGroups {
+
+	flex: 1;  
+
+
+}
+
+
+#phaseFlight {
+
+	margin-left : 10px;
+	flex: 3;
+  
+} 
+
+
+
+
+
+
